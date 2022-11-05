@@ -22,18 +22,18 @@ public class GameManager : MonoBehaviour
                 {
                     if (tile4.transform.position.x < tile5.transform.position.x)
                     {
-<<<<<<< Updated upstream
+
                         StartCoroutine(winDelay());
-=======
-                        win();
->>>>>>> Stashed changes
+
+                        
+
                     }
                 }
             }
         }
     }
 
-<<<<<<< Updated upstream
+
     IEnumerator winDelay()
     {
         yield return new WaitForSeconds(2);
@@ -41,8 +41,7 @@ public class GameManager : MonoBehaviour
     }
 
 
-=======
->>>>>>> Stashed changes
+
     private void win()
     {
         winPanel.gameObject.SetActive(true);
