@@ -1271,6 +1271,8 @@ MonoBehaviour:
   tile4: {fileID: 578828236}
   tile5: {fileID: 116408559}
   winPanel: {fileID: 395399302}
+  nextLevel: Level2
+  mainMenu: MainMenu
 --- !u!4 &1216596338
 Transform:
   m_ObjectHideFlags: 0
@@ -1649,7 +1651,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1580617932}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1216596337}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: MainMenuButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1580617932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2102,7 +2116,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1981971004}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1216596337}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: OnNextLevelButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1981971004
 MonoBehaviour:
   m_ObjectHideFlags: 0

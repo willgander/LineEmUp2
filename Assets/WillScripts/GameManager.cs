@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class GameManager : MonoBehaviour
     public GameObject tile4;
     public GameObject tile5;
     public GameObject winPanel;
+
+    [SerializeField] private string nextLevel;
+    [SerializeField] private string mainMenu;
 
     private void FixedUpdate()
     {
@@ -47,4 +51,13 @@ public class GameManager : MonoBehaviour
         winPanel.gameObject.SetActive(true);
     }
 
+    public void OnNextLevelButtonClick()
+    {
+        SceneManager.LoadScene(nextLevel);
+    }
+
+    public void MainMenuButtonClick()
+    {
+        SceneManager.LoadScene(mainMenu);
+    }
 }
