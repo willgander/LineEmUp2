@@ -22,12 +22,19 @@ public class GameManager : MonoBehaviour
                 {
                     if (tile4.transform.position.x < tile5.transform.position.x)
                     {
-                        win();
+                        StartCoroutine(winDelay());
                     }
                 }
             }
         }
     }
+
+    IEnumerator winDelay()
+    {
+        yield return new WaitForSeconds(2);
+        win();
+    }
+
 
     private void win()
     {
