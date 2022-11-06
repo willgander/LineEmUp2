@@ -17,9 +17,10 @@ public class GameManager : MonoBehaviour
 
     private void FixedUpdate()
     {
+        
         if (tile1.transform.position.x < tile2.transform.position.x)
         {
-            
+
             if (tile2.transform.position.x < tile3.transform.position.x)
             {
                 if (tile3.transform.position.x < tile4.transform.position.x)
@@ -29,12 +30,18 @@ public class GameManager : MonoBehaviour
 
                         StartCoroutine(winDelay());
 
-                        
+
 
                     }
                 }
             }
         }
+    }
+
+
+    void OnMouseUp()
+    {
+        print("Mouse up");
     }
 
 
