@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public GameObject tile4;
     public GameObject tile5;
     public GameObject winPanel;
+    public AudioSource winSound;
 
     [SerializeField] private string nextLevel;
     [SerializeField] private string mainMenu;
@@ -39,23 +40,27 @@ public class GameManager : MonoBehaviour
     }
 
 
-    void OnMouseUp()
+    void OnMouseDown()
     {
-        print("Mouse up");
+        
     }
 
 
     IEnumerator winDelay()
     {
         yield return new WaitForSeconds(2);
-        win();
+        winSound.Play(0);
+        SceneManager.LoadScene(nextLevel);
+        //win();
     }
 
 
 
     private void win()
     {
+        winSound.Play(0);
         winPanel.gameObject.SetActive(true);
+        
     }
 
     public void OnNextLevelButtonClick()

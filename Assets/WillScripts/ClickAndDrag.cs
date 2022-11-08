@@ -10,6 +10,8 @@ public class ClickAndDrag : MonoBehaviour
 
     private Camera myMainCamera;
 
+    public string animalName;
+
     void Start()
     {
         myMainCamera = Camera.main; 
@@ -23,6 +25,8 @@ public class ClickAndDrag : MonoBehaviour
         float planeDist;
         dragPlane.Raycast(camRay, out planeDist);
         offset = transform.position - camRay.GetPoint(planeDist);
+
+        
     }
 
     void OnMouseDrag()
