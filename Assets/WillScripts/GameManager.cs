@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public AudioSource winSound;
 
     [SerializeField] private string nextLevel;
-    [SerializeField] private string mainMenu;
+    
 
     private void FixedUpdate()
     {
@@ -63,13 +63,5 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public void OnNextLevelButtonClick()
-    {
-        SceneManager.LoadScene(nextLevel);
-    }
-
-    public void MainMenuButtonClick()
-    {
-        SceneManager.LoadScene(mainMenu);
-    }
+    
 }
