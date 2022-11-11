@@ -1010,8 +1010,7 @@ MonoBehaviour:
   tile5: {fileID: 727944892}
   winPanel: {fileID: 491954160}
   winSound: {fileID: 784429196}
-  nextLevel: Level2part2
-  mainMenu: MainMenu
+  nextLevel: Level2Win
 --- !u!82 &784429196
 AudioSource:
   m_ObjectHideFlags: 0

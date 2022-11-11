@@ -1411,8 +1411,7 @@ MonoBehaviour:
   tile5: {fileID: 116408559}
   winPanel: {fileID: 395399302}
   winSound: {fileID: 1216596339}
-  nextLevel: Level1part2
-  mainMenu: MainMenu
+  nextLevel: Level1Win
 --- !u!4 &1216596338
 Transform:
   m_ObjectHideFlags: 0
