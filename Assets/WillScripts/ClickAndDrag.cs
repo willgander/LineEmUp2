@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ClickAndDrag : MonoBehaviour
 {
@@ -11,6 +12,10 @@ public class ClickAndDrag : MonoBehaviour
     private Camera myMainCamera;
 
     public string animalName;
+
+    public string animalFact;
+
+    public TextMeshProUGUI animalFactText;
 
     void Start()
     {
@@ -26,7 +31,7 @@ public class ClickAndDrag : MonoBehaviour
         dragPlane.Raycast(camRay, out planeDist);
         offset = transform.position - camRay.GetPoint(planeDist);
 
-        
+        animalFactText.text = animalFact.ToString();
     }
 
     void OnMouseDrag()
