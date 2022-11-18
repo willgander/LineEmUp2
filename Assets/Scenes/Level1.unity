@@ -307,7 +307,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: e
+  animalFact: Not all the whales that are in each group will eat the exact same thing,
+    as each species has their own favorite food.
   animalFactText: {fileID: 1336707855}
 --- !u!64 &116408562
 MeshCollider:
@@ -820,7 +821,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: d
+  animalFact: Classified in the same group as sea lions, and walruses due to being
+    fin-footed. Their diet includes fish, penguins, octopuses, lobsters, salmons,
+    eels, mackerel, and squids.
   animalFactText: {fileID: 1336707855}
 --- !u!64 &578828239
 MeshCollider:
@@ -1441,7 +1444,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: b
+  animalFact: They feed on a microscopic organism abundant in Antarctic water due
+    to great upwellings at the Antarctic convergence. They drift around in swarms
+    that are large that it is difficult to imagine.
   animalFactText: {fileID: 1336707855}
 --- !u!64 &1282416428
 MeshCollider:
@@ -1540,10 +1545,10 @@ RectTransform:
   m_Father: {fileID: 1076228773}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.79800004, y: 0.317}
-  m_AnchorMax: {x: 0.79800004, y: 0.317}
-  m_AnchoredPosition: {x: -0.8999939, y: 0}
-  m_SizeDelta: {x: 210.6342, y: 136.8445}
+  m_AnchorMin: {x: 0.86600006, y: 0.24788325}
+  m_AnchorMax: {x: 0.86600006, y: 0.24788325}
+  m_AnchoredPosition: {x: -0.09869385, y: -0.6220398}
+  m_SizeDelta: {x: 215.4369, y: 216.0886}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336707855
 MonoBehaviour:
@@ -1592,8 +1597,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2061,7 +2066,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: a
+  animalFact: Their similar to land plants in that they contain chlorophyll and require
+    sunlight to live and grow. And they require inorganic nutrients like nitrates,
+    phosphates, and sulfur which they convert into proteins, fats, and carbohydrates.
   animalFactText: {fileID: 1336707855}
 --- !u!64 &1861913142
 MeshCollider:
@@ -2461,7 +2468,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: c
+  animalFact: Flightless birds that hunt for small fish such as sardines, squids,
+    and krill.
   animalFactText: {fileID: 1336707855}
 --- !u!64 &2100864939
 MeshCollider:

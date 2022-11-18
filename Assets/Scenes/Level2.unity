@@ -726,7 +726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: 
+  animalFact: 'Mahi Mahi loves to follow schools of smaller fish to hunt. '
   animalFactText: {fileID: 1101171204}
 --- !u!64 &727944894
 MeshCollider:
@@ -1477,7 +1477,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: 
+  animalFact: Sardines may not seem like they do a lot of hunting, but they take
+    advantage of creatures that travel currents.
   animalFactText: {fileID: 1101171204}
 --- !u!64 &1070734807
 MeshCollider:
@@ -1576,10 +1577,10 @@ RectTransform:
   m_Father: {fileID: 226956612}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.829471, y: 0.323}
-  m_AnchorMax: {x: 0.829471, y: 0.323}
-  m_AnchoredPosition: {x: -2.7922058, y: -3.5506973}
-  m_SizeDelta: {x: 207.5845, y: 156.1826}
+  m_AnchorMin: {x: 0.859, y: 0.30981734}
+  m_AnchorMax: {x: 0.859, y: 0.30981734}
+  m_AnchoredPosition: {x: 1, y: 0}
+  m_SizeDelta: {x: 207.5845, y: 191.903}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1101171204
 MonoBehaviour:
@@ -1601,7 +1602,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1727,7 +1728,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: 
+  animalFact: A very small lifeform which travels with the current of the ocean,
+    which makes them easy prey for larger creatures.
   animalFactText: {fileID: 1101171204}
 --- !u!64 &1141991912
 MeshCollider:
@@ -2364,7 +2366,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: 
+  animalFact: 'They are like land plants in that they contain chlorophyll and require
+    sunlight to live and grow. And they also require inorganic nutrients like nitrates,
+    phosphates, and sulfur which they convert into proteins, fats, and carbohydrates. '
   animalFactText: {fileID: 1101171204}
 --- !u!64 &1662304483
 MeshCollider:
@@ -2546,7 +2550,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: 
+  animalFact: Mackerel travels in schools for safety and to migrate. They also hunt
+    smaller fish.
   animalFactText: {fileID: 1101171204}
 --- !u!64 &2021943735
 MeshCollider:

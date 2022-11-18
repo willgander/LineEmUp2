@@ -512,10 +512,10 @@ RectTransform:
   m_Father: {fileID: 226956612}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.87500006, y: 0.44300002}
-  m_AnchorMax: {x: 0.87500006, y: 0.44300002}
-  m_AnchoredPosition: {x: 1.2999878, y: -1.699997}
-  m_SizeDelta: {x: 150.2249, y: 46.4726}
+  m_AnchorMin: {x: 0.86, y: 0.28711677}
+  m_AnchorMax: {x: 0.86, y: 0.28711677}
+  m_AnchoredPosition: {x: 1.792511, y: 0.057617188}
+  m_SizeDelta: {x: 207.4262, y: 208.9574}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &439072603
 MonoBehaviour:
@@ -944,7 +944,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: 
+  animalFact: 'These deceptively good hunters can hunt creatures much larger than
+    them. '
   animalFactText: {fileID: 439072603}
 --- !u!64 &727944894
 MeshCollider:
@@ -1443,7 +1444,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: 
+  animalFact: "This snake doesn\u2019t attack humans unless provoked, most interested
+    in worms, bugs, and frogs.  "
   animalFactText: {fileID: 439072603}
 --- !u!64 &1070734807
 MeshCollider:
@@ -1642,7 +1644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: 
+  animalFact: 'This insect consumes Fruits and vegetables, and any form of dry fruit.  '
   animalFactText: {fileID: 439072603}
 --- !u!64 &1141991912
 MeshCollider:
@@ -2195,7 +2197,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: 
+  animalFact: 'The home for many insects, but also provides a source of food for
+    those who live inside them. '
   animalFactText: {fileID: 439072603}
 --- !u!64 &1662304483
 MeshCollider:
@@ -2461,7 +2464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: 
+  animalFact: 'A species of canine that can hunt smaller predators '
   animalFactText: {fileID: 439072603}
 --- !u!64 &2021943735
 MeshCollider:
