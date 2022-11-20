@@ -809,7 +809,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: 
+  animalFact: Due to their efficiency at catching small birds, they have been blamed
+    for the decline of many songbirds.
   animalFactText: {fileID: 1304879190}
 --- !u!64 &727944894
 MeshCollider:
@@ -1352,7 +1353,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: 
+  animalFact: 'They are thought to be a desirable insect based on their preferred
+    diet of plant damaging insects '
   animalFactText: {fileID: 1304879190}
 --- !u!64 &1070734807
 MeshCollider:
@@ -1467,7 +1469,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: 
+  animalFact: 'Some Aphids are carriers of plant vectors which is a big economic
+    concern and why aphids are dangerous to agricultural crops. '
   animalFactText: {fileID: 1304879190}
 --- !u!64 &1141991912
 MeshCollider:
@@ -1701,10 +1704,10 @@ RectTransform:
   m_Father: {fileID: 226956612}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.855, y: 0.36081734}
-  m_AnchorMax: {x: 0.855, y: 0.36081734}
-  m_AnchoredPosition: {x: 1.8999939, y: -1.4000015}
-  m_SizeDelta: {x: 200, y: 128.5353}
+  m_AnchorMin: {x: 0.86, y: 0.32146707}
+  m_AnchorMax: {x: 0.86, y: 0.32146707}
+  m_AnchoredPosition: {x: 2, y: 0.68938446}
+  m_SizeDelta: {x: 200, y: 169.1565}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304879190
 MonoBehaviour:
@@ -1726,7 +1729,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1735,8 +1738,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4279435261
+  m_fontColor: {r: 0.9933599, g: 1, b: 0.07075471, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2155,7 +2158,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: 
+  animalFact: The home for many insects, but also provides a source of food for those
+    who live inside them.
   animalFactText: {fileID: 1304879190}
 --- !u!64 &1662304483
 MeshCollider:
@@ -2589,7 +2593,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: 
+  animalFact: 'Diet consists mainly of berries and small bugs, Male robins often
+    have sing offs where they loudly duet.  '
   animalFactText: {fileID: 1304879190}
 --- !u!64 &2021943735
 MeshCollider:
