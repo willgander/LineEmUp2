@@ -1366,7 +1366,6 @@ MonoBehaviour:
   tile4: {fileID: 578828236}
   tile5: {fileID: 116408559}
   winPanel: {fileID: 395399302}
-  winSound: {fileID: 1216596339}
   nextLevel: Level1Win
 --- !u!4 &1216596338
 Transform:
@@ -1613,8 +1612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalName: 
   animalFact: They feed on a microscopic organism abundant in Antarctic water due
-    to great upwellings at the Antarctic convergence. They drift around in swarms
-    that are large that it is difficult to imagine.
+    to great upwellings at the Antarctic convergence.
   animalFactText: {fileID: 1336707855}
 --- !u!64 &1282416428
 MeshCollider:
@@ -2194,9 +2192,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: Their similar to land plants in that they contain chlorophyll and require
-    sunlight to live and grow. And they require inorganic nutrients like nitrates,
-    phosphates, and sulfur which they convert into proteins, fats, and carbohydrates.
+  animalFact: 'Their similar to land plants in that they contain chlorophyll and
+    require sunlight to live and grow. '
   animalFactText: {fileID: 1336707855}
 --- !u!64 &1861913142
 MeshCollider:

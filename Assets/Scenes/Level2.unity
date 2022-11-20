@@ -972,7 +972,6 @@ MonoBehaviour:
   tile4: {fileID: 2021943732}
   tile5: {fileID: 727944892}
   winPanel: {fileID: 491954160}
-  winSound: {fileID: 784429196}
   nextLevel: Level2Win
 --- !u!82 &784429196
 AudioSource:
@@ -2494,9 +2493,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: 'They are like land plants in that they contain chlorophyll and require
-    sunlight to live and grow. And they also require inorganic nutrients like nitrates,
-    phosphates, and sulfur which they convert into proteins, fats, and carbohydrates. '
+  animalFact: They are like land plants in that they contain chlorophyll and require
+    sunlight to live and grow.
   animalFactText: {fileID: 1101171204}
 --- !u!64 &1662304483
 MeshCollider:
