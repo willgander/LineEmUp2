@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     public GameObject tile4;
     public GameObject tile5;
     public GameObject winPanel;
-    public AudioSource winSound;
+    //public AudioSource winSound;
 
     [SerializeField] private string nextLevel;
     
@@ -49,19 +49,19 @@ public class GameManager : MonoBehaviour
     IEnumerator winDelay()
     {
         yield return new WaitForSeconds(2);
-        winSound.Play(0);
+        //winSound.Play(0);
         SceneManager.LoadScene(nextLevel);
         //win();
     }
 
 
 
-    private void win()
+    /*private void win()
     {
         winSound.Play(0);
         winPanel.gameObject.SetActive(true);
         
-    }
+    }*/
 
     
 }
