@@ -905,9 +905,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: 
-  animalFact: Classified in the same group as sea lions, and walruses due to being
-    fin-footed. Their diet includes fish, penguins, octopuses, lobsters, salmons,
-    eels, mackerel, and squids.
+  animalFact: Classified in the same group as sea lions, and walruses. Their diet
+    includes fish, penguins, octopuses, lobsters, salmons, eels, mackerel, and squids.
   animalFactText: {fileID: 1336707855}
 --- !u!64 &578828239
 MeshCollider:
