@@ -283,7 +283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9058899b21bf64be6ac73bf3d98e76cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: Level1
+  nextLevel: MainMenu
   mainMenu: MainMenu
 --- !u!114 &894156832
 MonoBehaviour:
