@@ -508,12 +508,16 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.87054825}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -223, y: -62}
 =======
   m_AnchorMin: {x: 0.21875001, y: 0.69500005}
   m_AnchorMax: {x: 0.21875001, y: 0.69500005}
   m_AnchoredPosition: {x: 0.5, y: 2.0680008}
 >>>>>>> 162002a4fa1bff60cb94780c49aa5b0851acdf86
+=======
+  m_AnchoredPosition: {x: 0, y: -76.932}
+>>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
 =======
   m_AnchoredPosition: {x: 0, y: -76.932}
 >>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
@@ -555,7 +559,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     rgba: 4278190080
+=======
+    rgba: 4294967295
+>>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
 =======
     rgba: 4294967295
 >>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
@@ -830,11 +838,16 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 40ba9d0d133e4e04aa6d5c77db1b860f, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: ddbdc20804fab4b1197a093bfba59d6d, type: 3}
 >>>>>>> 162002a4fa1bff60cb94780c49aa5b0851acdf86
   m_Type: 0
+=======
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+>>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
 =======
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
@@ -894,6 +907,7 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 351377597}
 =======
   - {fileID: 742832605}
@@ -902,6 +916,8 @@ RectTransform:
   - {fileID: 1674930892}
   - {fileID: 912410169}
 >>>>>>> 162002a4fa1bff60cb94780c49aa5b0851acdf86
+=======
+>>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
 =======
 >>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
 =======
@@ -937,11 +953,16 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 84606eb192298cb419f1dfef56a5e59b, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: 397c1063c19a0442e92d1837c2d1149e, type: 3}
 >>>>>>> 162002a4fa1bff60cb94780c49aa5b0851acdf86
   m_Type: 0
+=======
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+>>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
 =======
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
@@ -1104,6 +1125,7 @@ CanvasRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &351377596
 GameObject:
   m_ObjectHideFlags: 0
@@ -1140,6 +1162,8 @@ Transform:
   m_Father: {fileID: 300719799}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
 =======
 >>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
 =======
@@ -1419,6 +1443,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 713644550}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1919,6 +1944,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 1195917221}
 >>>>>>> 162002a4fa1bff60cb94780c49aa5b0851acdf86
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
 =======
 >>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
 =======
@@ -2527,6 +2554,7 @@ CanvasRenderer:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1674578522
 =======
 --- !u!1 &1674930891
@@ -2652,6 +2680,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 1674930891}
 >>>>>>> 162002a4fa1bff60cb94780c49aa5b0851acdf86
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
 =======
 >>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
 =======
