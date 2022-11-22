@@ -928,7 +928,6 @@ MonoBehaviour:
   tile4: {fileID: 2021943732}
   tile5: {fileID: 727944892}
   winPanel: {fileID: 491954160}
-  winSound: {fileID: 784429196}
   nextLevel: FinalWin
 --- !u!82 &784429196
 AudioSource:
@@ -1704,10 +1703,10 @@ RectTransform:
   m_Father: {fileID: 226956612}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.86, y: 0.32146707}
-  m_AnchorMax: {x: 0.86, y: 0.32146707}
-  m_AnchoredPosition: {x: 2, y: 0.68938446}
-  m_SizeDelta: {x: 200, y: 169.1565}
+  m_AnchorMin: {x: 0.86, y: 0.28711677}
+  m_AnchorMax: {x: 0.86, y: 0.28711677}
+  m_AnchoredPosition: {x: 1.3952942, y: -13.000198}
+  m_SizeDelta: {x: 156.1522, y: 182.8418}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304879190
 MonoBehaviour:
