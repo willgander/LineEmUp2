@@ -506,24 +506,12 @@ RectTransform:
 <<<<<<< HEAD
   m_AnchorMin: {x: 0.5, y: 0.87054825}
   m_AnchorMax: {x: 0.5, y: 0.87054825}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   m_AnchoredPosition: {x: -223, y: -62}
 =======
   m_AnchorMin: {x: 0.21875001, y: 0.69500005}
   m_AnchorMax: {x: 0.21875001, y: 0.69500005}
   m_AnchoredPosition: {x: 0.5, y: 2.0680008}
 >>>>>>> 162002a4fa1bff60cb94780c49aa5b0851acdf86
-=======
-  m_AnchoredPosition: {x: 0, y: -76.932}
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
-=======
-  m_AnchoredPosition: {x: 0, y: -76.932}
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
-=======
-  m_AnchoredPosition: {x: 0, y: -76.932}
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
   m_SizeDelta: {x: 339.9913, y: 153.8645}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &191718038
@@ -557,19 +545,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     rgba: 4278190080
-=======
-    rgba: 4294967295
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
-=======
-    rgba: 4294967295
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
-=======
-    rgba: 4294967295
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
 =======
     rgba: 4294967295
@@ -828,7 +804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.6039216, b: 0.4039216, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -836,26 +812,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 40ba9d0d133e4e04aa6d5c77db1b860f, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: ddbdc20804fab4b1197a093bfba59d6d, type: 3}
 >>>>>>> 162002a4fa1bff60cb94780c49aa5b0851acdf86
   m_Type: 0
-=======
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
-=======
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
-=======
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -905,9 +866,6 @@ RectTransform:
   - {fileID: 1988233197}
   - {fileID: 191718037}
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   - {fileID: 351377597}
 =======
   - {fileID: 742832605}
@@ -916,12 +874,6 @@ RectTransform:
   - {fileID: 1674930892}
   - {fileID: 912410169}
 >>>>>>> 162002a4fa1bff60cb94780c49aa5b0851acdf86
-=======
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
-=======
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
-=======
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
   m_Father: {fileID: 1420988740}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -943,7 +895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.53333336, b: 0.38823533, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -951,26 +903,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 84606eb192298cb419f1dfef56a5e59b, type: 3}
 =======
   m_Sprite: {fileID: 21300000, guid: 397c1063c19a0442e92d1837c2d1149e, type: 3}
 >>>>>>> 162002a4fa1bff60cb94780c49aa5b0851acdf86
   m_Type: 0
-=======
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
-=======
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
-=======
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1123,9 +1060,6 @@ CanvasRenderer:
   m_GameObject: {fileID: 314034497}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!1 &351377596
 GameObject:
   m_ObjectHideFlags: 0
@@ -1162,12 +1096,6 @@ Transform:
   m_Father: {fileID: 300719799}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
-=======
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
-=======
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
 --- !u!1 &478052980
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,7 +1113,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &478052981
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1239,7 +1167,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278321666
   m_fontColor: {r: 0.009433985, g: 0.009433985, b: 0.009433985, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1443,9 +1371,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 713644550}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &851161970
 =======
@@ -1944,12 +1869,6 @@ CanvasRenderer:
   m_GameObject: {fileID: 1195917221}
 >>>>>>> 162002a4fa1bff60cb94780c49aa5b0851acdf86
   m_CullTransparentMesh: 1
-=======
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
-=======
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
-=======
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
 --- !u!1 &1273229069
 GameObject:
   m_ObjectHideFlags: 0
@@ -2288,7 +2207,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 37844253}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -2552,9 +2471,6 @@ CanvasRenderer:
   m_GameObject: {fileID: 1610129746}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!1 &1674578522
 =======
 --- !u!1 &1674930891
@@ -2680,12 +2596,6 @@ CanvasRenderer:
   m_GameObject: {fileID: 1674930891}
 >>>>>>> 162002a4fa1bff60cb94780c49aa5b0851acdf86
   m_CullTransparentMesh: 1
-=======
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
-=======
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
-=======
->>>>>>> parent of 7cc30d1 (New main menu screens, descriptions moved a bit)
 --- !u!1 &1727400517
 GameObject:
   m_ObjectHideFlags: 0
