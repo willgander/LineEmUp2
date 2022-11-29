@@ -217,6 +217,7 @@ RectTransform:
   m_Children:
   - {fileID: 491954161}
   - {fileID: 1304879189}
+  - {fileID: 1047873564}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -808,9 +809,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5f0036465ea8444a514aa7e3d39038, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalName: 
+  animalName: Sparrow hawk
   animalFact: Due to their efficiency at catching small birds, they have been blamed
     for the decline of many songbirds.
+  animalNameText: {fileID: 1047873565}
   animalFactText: {fileID: 1304879190}
 --- !u!64 &727944894
 MeshCollider:
@@ -1303,6 +1305,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939973887}
   m_CullTransparentMesh: 1
+--- !u!1 &1047873563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1047873564}
+  - component: {fileID: 1047873566}
+  - component: {fileID: 1047873565}
+  m_Layer: 5
+  m_Name: AnimalNameText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1047873564
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047873563}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 226956612}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.86, y: 0.4888878}
+  m_AnchorMax: {x: 0.86, y: 0.4888878}
+  m_AnchoredPosition: {x: 1.3900146, y: -1.0461006}
+  m_SizeDelta: {x: 156.15, y: 22.6843}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1047873565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047873563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4280153848
+  m_fontColor: {r: 0.9716981, g: 0.9635351, b: 0.114587024, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 18
+  m_fontSizeBase: 18
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1047873566
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047873563}
+  m_CullTransparentMesh: 1
 --- !u!1 &1070734804
 GameObject:
   m_ObjectHideFlags: 0
@@ -1351,9 +1488,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5f0036465ea8444a514aa7e3d39038, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalName: 
+  animalName: Ladybug
   animalFact: 'They are thought to be a desirable insect based on their preferred
     diet of plant damaging insects '
+  animalNameText: {fileID: 1047873565}
   animalFactText: {fileID: 1304879190}
 --- !u!64 &1070734807
 MeshCollider:
@@ -1467,9 +1605,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5f0036465ea8444a514aa7e3d39038, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalName: 
-  animalFact: 'Some Aphids are carriers of plant vectors which is a big economic
-    concern and why aphids are dangerous to agricultural crops. '
+  animalName: Aphids
+  animalFact: 'Some Aphids are dangerous to agricultural crops. '
+  animalNameText: {fileID: 1047873565}
   animalFactText: {fileID: 1304879190}
 --- !u!64 &1141991912
 MeshCollider:
@@ -2156,9 +2294,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5f0036465ea8444a514aa7e3d39038, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalName: 
+  animalName: Trees
   animalFact: The home for many insects, but also provides a source of food for those
     who live inside them.
+  animalNameText: {fileID: 1047873565}
   animalFactText: {fileID: 1304879190}
 --- !u!64 &1662304483
 MeshCollider:
@@ -2591,9 +2730,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5f0036465ea8444a514aa7e3d39038, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalName: 
+  animalName: Robin
   animalFact: 'Diet consists mainly of berries and small bugs, Male robins often
     have sing offs where they loudly duet.  '
+  animalNameText: {fileID: 1047873565}
   animalFactText: {fileID: 1304879190}
 --- !u!64 &2021943735
 MeshCollider:

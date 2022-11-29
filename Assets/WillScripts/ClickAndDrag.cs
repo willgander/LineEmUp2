@@ -15,6 +15,8 @@ public class ClickAndDrag : MonoBehaviour
 
     public string animalFact;
 
+    public TextMeshProUGUI animalNameText;
+
     public TextMeshProUGUI animalFactText;
 
     void Start()
@@ -32,6 +34,7 @@ public class ClickAndDrag : MonoBehaviour
         offset = transform.position - camRay.GetPoint(planeDist);
 
         animalFactText.text = animalFact.ToString();
+        animalNameText.text = animalName.ToString();
     }
 
     void OnMouseDrag()
