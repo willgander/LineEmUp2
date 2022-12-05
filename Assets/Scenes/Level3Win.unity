@@ -525,6 +525,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 916862548}
     m_Modifications:
+    - target: {fileID: 655800822586344325, guid: 1785af8f6de55436899003f91475cff9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ae2d1015e15df4abab1d825856a6a60c, type: 3}
     - target: {fileID: 1154209054762767830, guid: 1785af8f6de55436899003f91475cff9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -553,6 +557,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4745881571807405998, guid: 1785af8f6de55436899003f91475cff9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 260
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582021049924414209, guid: 1785af8f6de55436899003f91475cff9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ae2d1015e15df4abab1d825856a6a60c, type: 3}
     - target: {fileID: 6582021049924414214, guid: 1785af8f6de55436899003f91475cff9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -581,6 +593,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6582021049924414215, guid: 1785af8f6de55436899003f91475cff9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 260
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582021050351521986, guid: 1785af8f6de55436899003f91475cff9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 260
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582021050351522044, guid: 1785af8f6de55436899003f91475cff9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ae2d1015e15df4abab1d825856a6a60c, type: 3}
     - target: {fileID: 6582021050351522045, guid: 1785af8f6de55436899003f91475cff9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -609,6 +633,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6582021050484553599, guid: 1785af8f6de55436899003f91475cff9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582021050988098769, guid: 1785af8f6de55436899003f91475cff9, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582021050988098769, guid: 1785af8f6de55436899003f91475cff9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ecb6969a9cc18a84287fc1414e385193, type: 3}
     - target: {fileID: 6582021050988098774, guid: 1785af8f6de55436899003f91475cff9, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
