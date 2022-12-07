@@ -2329,7 +2329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: Phytoplankton
-  animalFact: 'Their similar to land plants in that they contain chlorophyll and
+  animalFact: 'They''re similar to land plants in that they contain chlorophyll and
     require sunlight to live and grow. '
   animalNameText: {fileID: 1729960560}
   animalFactText: {fileID: 1336707855}
